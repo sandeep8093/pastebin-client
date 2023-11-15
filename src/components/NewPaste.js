@@ -25,8 +25,7 @@ export default function NewPaste() {
   let history = useHistory();
 
   function submitPaste() {
-    // console.log(title, pasteContent, timeout, pasteID);
-  
+
     let exp_date;
     if (!timeout) {
       exp_date = Date.now() + 24 * 60 * 60 * 1000;

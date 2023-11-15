@@ -84,7 +84,7 @@ export default function ShowPaste(props) {
             <div className="col s8">
               <input
                 id="share"
-                value={`http://localhost:3000/paste/${paste.idx}`}
+                value={`https://pastebin-client.netlify.app/paste/${paste.idx}`}
                 readOnly
               ></input>
             </div>

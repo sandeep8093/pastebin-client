@@ -125,7 +125,7 @@ export default function EditPaste() {
                 <input
                     placeholder="Paste Link"
                     type="text"
-                    value={`http://localhost:3000/paste/${paramPasteID}`}
+                    value={`https://pastebin-client.netlify.app/paste/${paramPasteID}`}
                     readOnly
                 />
                 </div>
